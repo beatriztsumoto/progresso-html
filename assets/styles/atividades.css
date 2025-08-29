@@ -1,21 +1,33 @@
-.quadrado {
+.circulos {
+    
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
+    flex-direction: column;
+    
 }
 
-.q1 {
+.c1 {
     width: 150px;
     height: 150px;
-    background-color: rgb(37, 37, 160);
+    background-color: red;
+    border-radius: 100px;
 }
 
-.q2 {
+.c2 {
     width: 150px;
     height: 150px;
-    background-color: rgb(95, 95, 221);
+    background-color:yellow;  
+    border-radius: 100px;
+}
+
+.c3 {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    border-radius: 100px;
 }
 
 
