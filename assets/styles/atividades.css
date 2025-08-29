@@ -1,6 +1,21 @@
 .quadrado {
-    width: 20%;
-    height: 200px;
-    background-color: rgb(34, 25, 160);
-    margin:  0 auto  20px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
+
+.q1 {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(37, 37, 160);
+}
+
+.q2 {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(95, 95, 221);
+}
+
+
