@@ -1,33 +1,41 @@
 .circulos {
     
-    height: 100vh;
+    height: 400px;
+    width: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
     flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    margin: 200px auto 300px;
+    border-radius: 30px;
+
     
 }
 
 .c1 {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     background-color: red;
     border-radius: 100px;
+    box-shadow: 0 0 20px red;
 }
 
 .c2 {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     background-color:yellow;  
     border-radius: 100px;
+    box-shadow: 0 0 20px yellow;
 }
 
 .c3 {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     background-color: green;
     border-radius: 100px;
+    box-shadow: 0 0 20px green;
 }
 
 
