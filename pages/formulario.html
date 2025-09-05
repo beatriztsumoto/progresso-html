@@ -8,13 +8,14 @@
 </head>
 <body>
     <form action="#">
+
         <div class="nomeNinja">
             <label for="nome">Nome do ninja 🥷🏻</label>
             <input
              type="text" 
             name="nome" 
             placeholder="digite o nome do ninja..."
-             required/>
+            required/>
         </div>
 
         <div class="rank">
@@ -26,6 +27,40 @@
                 <option value="jonin">jonin</option>
                 <option value="kage">kage</option>
             </select>
+        </div>
+
+        <div class="tipo">
+            <label for="tipo">Qual o nível da missão?</label>
+            <div>
+                <label for="d">
+                    <input type="radio" name="tipo" value="d">
+                    D
+                </label>
+            </div>
+            <div>
+            <div>
+                <label for="c">
+                    <input type="radio" name="tipo" value="c">
+                    C
+                </label>
+            </div>
+            <div>
+                <label for="b">
+                    <input type="radio" name="tipo" value="b">
+                    B
+                </label>
+            </div>
+            <div>
+                <label for="a">
+                    <input type="radio" name="tipo" value="a">
+                    A
+                </label>
+            </div>
+                <label for="s">
+                    <input type="radio" name="tipo" value="s">
+                    S
+                </label>
+            </div>
         </div>
     </form>
 </body>
